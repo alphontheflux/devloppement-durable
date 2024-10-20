@@ -45,6 +45,18 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h1{
+  text-align:center;
+  background: #f1f1f1;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .p{
     height: 100vh;
     display: flex;
@@ -53,21 +65,8 @@ body {
       
 }
 
-.text2{
-    text-align:center;
-    background: #f1f1f1;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 200;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    border-radius: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-.text3{
-    text-align:center;
+.text9{
+    text-align:left;
     background: #f1f1f1;
     padding: 20px;
     font-size: 20px;
@@ -78,8 +77,8 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.text4{
-  text-align:start;
+.text10{
+  text-align:left;
   background: #f1f1f1;
   padding: 20px;
   font-size: 20px;
@@ -90,8 +89,8 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.text5{
-  text-align:start;
+.text11{
+  text-align:left;
   background: #f1f1f1;
   padding: 20px;
   font-size: 20px;
@@ -102,8 +101,8 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.text6{
-  text-align:start;
+.text12{
+  text-align:left;
   background: #f1f1f1;
   padding: 20px;
   font-size: 20px;
@@ -114,8 +113,8 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.text7{
-  text-align:start;
+.text13{
+  text-align:left;
   background: #f1f1f1;
   padding: 20px;
   font-size: 20px;
@@ -126,39 +125,92 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.text8{
-    text-align:start;
-    background: #f1f1f1;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 200;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    border-radius: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-.s2 {
-  background-image: url(image/image2.webp);
-}
-.s3 {
-  background-image: url(image/image3.webp);
-}
-.s4 {
-  background-image:url(image/image4.webp);
-}
-.s5{
-  background-image: url(image/image5.webp);
+.text14{
+  text-align:left;
+  background: #f1f1f1;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.s6{
-  background-image: url(image/image6.webp);
+.text15{
+  text-align:left;
+  background: #f1f1f1;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.s7{
-  background-image: url(image/image7.webp);
+.text16{
+  text-align:left;
+  background: #f1f1f1;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.s8{
-  background-image: url(image/image8.webp);
+
+
+
+
+.s9{
+  background-image: url(image/image9.webp);
+}
+
+.s10 {
+  background-image: url(image/image10.webp);
+}
+
+.s11 {
+  background-image: url(image/image11.webp);
+}
+
+.s12 {
+  background-image: url(image/image12.webp);
+}
+
+.s13 {
+  background-image: url(image/image13.webp);
+}
+
+.s14 {
+  background-image: url(image/image14.webp);
+}
+
+.s15 {
+  background-image: url(image/image15.webp);
+}
+
+.s16 {
+  background-image: url(image/image16.webp);
+}
+
+.custom-button {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #45a049; 
 }
