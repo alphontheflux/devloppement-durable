@@ -138,6 +138,11 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
+  .section a img {
+    width: 50px; /* Taille de la flèche */
+    height: auto;
+  }
+
 .s2 {
   background-image: url(image/image2.webp);
 }
