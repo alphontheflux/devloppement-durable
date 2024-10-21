@@ -161,6 +161,13 @@ h1{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.section a img {
+  width: 50px; /* Taille de la flèche */
+  height: auto;
+  transform: scaleX(-1);
+  display:flex;
+  justify-content: flex-end;
+}
 
 
 
