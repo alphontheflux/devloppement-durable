@@ -137,3 +137,22 @@ h1{
   background-color: #45a049; 
 }
 
+.text17, .text18, .text19, h1, .section h2, .section h3 {
+  text-align: left;
+  background: rgba(241, 241, 241, 0.5); /* Fond avec opacité réduite */
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  backdrop-filter: blur(10px); /* Effet de flou sur l'arrière-plan */
+  transition: all 0.3s ease; /* Transition douce pour les changements */
+}
+
+.text17:hover, .text18:hover, .text19:hover, h1:hover, .section h2:hover, .section h3:hover {
+  background: rgba(241, 241, 241, 1); /* Fond opaque au survol */
+  backdrop-filter: blur(0px); /* Suppression du flou au survol */
+}
+

@@ -54,7 +54,7 @@ body {
 }
 
 .text2{
-    text-align:center;
+    text-align:start;
     background: #f1f1f1;
     padding: 20px;
     font-size: 20px;
@@ -67,7 +67,7 @@ body {
 }
 
 .text3{
-    text-align:center;
+    text-align:start;
     background: #f1f1f1;
     padding: 20px;
     font-size: 20px;
@@ -185,3 +185,22 @@ body {
 .custom-button:hover {
   background-color: #45a049; 
 }
+
+.text2, .text3, .text4, .text5, .text6, .text7, .text8, .section h2, .section h3 {
+  text-align: start;
+  background: rgba(241, 241, 241, 0.5); /* Opacité réduite avec rgba */
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  backdrop-filter: blur(15px); /* Ajout du flou */
+  transition: all 0.3s ease; /* Animation douce */
+}
+
+.text2:hover, .text3:hover, .text4:hover, .text5:hover, .text6:hover, .text7:hover, .text8:hover, .section h2:hover, .section h3:hover {
+    background: rgba(241, 241, 241, 1); /* Fond opaque au survol */
+    backdrop-filter: blur(0px); /* Retire le flou au survol */
+

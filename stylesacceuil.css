@@ -161,13 +161,6 @@ h1{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.section a img {
-  width: 50px; /* Taille de la flèche */
-  height: auto;
-  transform: scaleX(-1);
-  display:flex;
-  justify-content: flex-end;
-}
 
 
 
@@ -220,4 +213,30 @@ h1{
 
 .custom-button:hover {
   background-color: #45a049; 
+}
+
+.section a img {
+  width: 50px; /* Taille de la flèche */
+  height: auto;
+  transform: scaleX(-1);
+  margin-left: 1100px;
+}
+
+.text9, .text10, .text11, .text12, .text13, .text14, .text15, .text16, h1, .section h2, .section h3 {
+  text-align: left;
+  background: rgba(241, 241, 241, 0.5); /* Fond avec opacité réduite */
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  backdrop-filter: blur(10px); /* Effet de flou sur l'arrière-plan */
+  transition: all 0.3s ease; /* Transition douce pour les changements */
+}
+
+.text9:hover, .text10:hover, .text11:hover, .text12:hover, .text13:hover, .text14:hover, .text15:hover, .text16:hover, h1:hover, .section h2:hover, .section h3:hover {
+  background: rgba(241, 241, 241, 1); /* Fond opaque au survol */
+  backdrop-filter: blur(0px); /* Suppression du flou au survol */
 }

@@ -58,4 +58,23 @@ h1{
   background-image: url(image/image20.webp);
 }
 
+.text20, h1 {
+  text-align: left;
+  background: rgba(241, 241, 241, 0.5); /* Fond semi-transparent */
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  backdrop-filter: blur(10px); /* Ajout de l'effet flou */
+  transition: all 0.3s ease; /* Transition douce */
+}
+
+.text20:hover, h1:hover {
+  background: rgba(241, 241, 241, 1); /* Fond opaque au survol */
+  backdrop-filter: blur(0px); /* Retrait du flou au survol */
+}
+
 
